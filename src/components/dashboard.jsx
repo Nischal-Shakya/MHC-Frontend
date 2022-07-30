@@ -6,7 +6,6 @@ import IconButton from "@mui/material/IconButton";
 import Paper from "@mui/material/Paper";
 import InputBase from "@mui/material/InputBase";
 import Divider from "@mui/material/Divider";
-import { sizing } from "@mui/system";
 
 const Dashboard = () => {
   return (
@@ -45,14 +44,16 @@ const Dashboard = () => {
         </IconButton>
       </div>
       <h2>Number of Reports:3</h2>
-      <Paper elevation={3} variant="outlined" sx={{ height: 100, gap: 2 }}>
-        Hello
+      <Paper elevation={3} variant="outlined" sx={{ height: 100}}>
+        <h1>Cancer</h1>
       </Paper>
+      &nbsp; 
       <Paper elevation={3} variant="outlined" sx={{ height: 100 }}>
-        Hello
+      <h1>Cancer</h1>
       </Paper>
+      &nbsp; 
       <Paper elevation={3} variant="outlined" sx={{ height: 100 }}>
-        Hello
+      <h1>Cancer</h1>
       </Paper>
     </>
   );

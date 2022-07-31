@@ -62,7 +62,6 @@ const DummyReports = () => {
                     <Typography
                     sx={{
                         fontSize: 16,
-
                         color: "textPrimary",
                     }}
                     >
@@ -128,7 +127,6 @@ const DummyReports = () => {
                     <Typography
                     sx={{
                         fontSize: 16,
-
                         color: "textPrimary",
                     }}
                     >
@@ -194,7 +192,6 @@ const DummyReports = () => {
                     <Typography
                     sx={{
                         fontSize: 16,
-
                         color: "textPrimary",
                     }}
                     >

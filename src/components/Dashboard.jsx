@@ -7,21 +7,15 @@ import CardContent from "@mui/material/CardContent";
 import { CardActionArea } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import DummyReports from "./DummyReports";
 
 const Dashboard = () => {
   return (
     <>
       <Grid container spaceing={2}>
         <Grid item xs={10}>
-          <div
-            style={{
-              alignItems: "center",
-              justifyContent: "left",
-            }}
-          >
-            DOCTOR: Nischal Shakya
-          </div>
-          <div>PATIENT: Dikshya Kunwar</div>
+          <div className="Text-size">DOCTOR: Nischal Shakya</div>
+          <div className="Text-size">PATIENT: Dikshya Kunwar</div>
         </Grid>
         <Grid item xs={1}>
           <div
@@ -29,6 +23,7 @@ const Dashboard = () => {
               alignItems: "center",
               justifyContent: "right",
             }}
+            className="Text-size"
           >
             Annapurna Neuro Hospital
           </div>
@@ -65,7 +60,7 @@ const Dashboard = () => {
               <CardContent>
                 <Typography
                   sx={{
-                    fontSize: 32,
+                    fontSize: 44,
                     fontWeight: "bold",
                     color: "textPrimary",
                   }}
@@ -75,7 +70,7 @@ const Dashboard = () => {
 
                 <Typography
                   sx={{
-                    fontSize: 12,
+                    fontSize: 20,
                     color: "textPrimary",
                   }}
                 >
@@ -95,7 +90,7 @@ const Dashboard = () => {
               <CardContent>
                 <Typography
                   sx={{
-                    fontSize: 32,
+                    fontSize: 44,
                     fontWeight: "bold",
                     color: "textPrimary",
                   }}
@@ -105,7 +100,7 @@ const Dashboard = () => {
 
                 <Typography
                   sx={{
-                    fontSize: 12,
+                    fontSize: 20,
                     color: "textPrimary",
                   }}
                 >
@@ -125,7 +120,7 @@ const Dashboard = () => {
               <CardContent>
                 <Typography
                   sx={{
-                    fontSize: 32,
+                    fontSize: 44,
                     fontWeight: "bold",
                     color: "textPrimary",
                   }}
@@ -135,7 +130,7 @@ const Dashboard = () => {
 
                 <Typography
                   sx={{
-                    fontSize: 12,
+                    fontSize: 20,
                     color: "textPrimary",
                   }}
                 >
@@ -146,6 +141,10 @@ const Dashboard = () => {
           </Card>
         </Grid>
       </Grid>
+      <Box m={2} pt={3} />
+      <h2>Latest Reports</h2>
+      <Box m={2} pt={3} />
+      <DummyReports />
     </>
   );
 };

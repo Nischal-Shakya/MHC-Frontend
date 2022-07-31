@@ -44,18 +44,18 @@ const LaboratoryReport = () => {
         </IconButton>
       </div>
       <h2>Number of Reports:3</h2>
-      <button  sx={{ height: 400 }}>
-        <Paper elevation={3} variant="outlined" sx={{ height: 100}}>
+      <button sx={{ height: 400 }}>
+        <Paper elevation={3} variant="outlined" sx={{ height: 100 }}>
           <h1>Cancer</h1>
         </Paper>
       </button>
-      &nbsp; 
+      &nbsp;
       <Paper elevation={3} variant="outlined" sx={{ height: 100 }}>
-      <h1>Cancer</h1>
+        <h1>Cancer</h1>
       </Paper>
-      &nbsp; 
+      &nbsp;
       <Paper elevation={3} variant="outlined" sx={{ height: 100 }}>
-      <h1>Cancer</h1>
+        <h1>Cancer</h1>
       </Paper>
     </>
   );

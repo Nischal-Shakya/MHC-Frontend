@@ -1,10 +1,10 @@
 import './App.css';
-import TemporaryDrawer from './components/Drawer';
+import MiniDrawer from './components/Drawer';
 
 function App() {
   return (
     <>
-      <TemporaryDrawer />
+      <MiniDrawer />
     </>
   );
 }

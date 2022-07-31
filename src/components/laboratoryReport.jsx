@@ -7,7 +7,7 @@ import Paper from "@mui/material/Paper";
 import InputBase from "@mui/material/InputBase";
 import Divider from "@mui/material/Divider";
 
-const Dashboard = () => {
+const laboratoryReport = () => {
   return (
     <>
       <div
@@ -59,4 +59,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default laboratoryReport;

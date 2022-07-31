@@ -19,7 +19,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 
-import Dashboard from "./dashboard";
+import Dashboard from "./laboratoryReport";
 
 const drawerWidth = 240;
 

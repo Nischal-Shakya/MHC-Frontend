@@ -7,7 +7,7 @@ import Paper from "@mui/material/Paper";
 import InputBase from "@mui/material/InputBase";
 import Divider from "@mui/material/Divider";
 
-const laboratoryReport = () => {
+const LaboratoryReport = () => {
   return (
     <>
       <div
@@ -44,9 +44,11 @@ const laboratoryReport = () => {
         </IconButton>
       </div>
       <h2>Number of Reports:3</h2>
-      <Paper elevation={3} variant="outlined" sx={{ height: 100}}>
-        <h1>Cancer</h1>
-      </Paper>
+      <button  sx={{ height: 400 }}>
+        <Paper elevation={3} variant="outlined" sx={{ height: 100}}>
+          <h1>Cancer</h1>
+        </Paper>
+      </button>
       &nbsp; 
       <Paper elevation={3} variant="outlined" sx={{ height: 100 }}>
       <h1>Cancer</h1>
@@ -59,4 +61,4 @@ const laboratoryReport = () => {
   );
 };
 
-export default laboratoryReport;
+export default LaboratoryReport;

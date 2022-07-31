@@ -6,6 +6,9 @@ import IconButton from "@mui/material/IconButton";
 import Paper from "@mui/material/Paper";
 import InputBase from "@mui/material/InputBase";
 import Divider from "@mui/material/Divider";
+import DummyReports from "./DummyReports";
+import Box from "@mui/material/Box";
+
 
 const LaboratoryReport = () => {
   return (
@@ -43,20 +46,10 @@ const LaboratoryReport = () => {
           <AddCircleOutlineOutlinedIcon />
         </IconButton>
       </div>
+      <Box m={2} pt={3} />
       <h2>Number of Reports:3</h2>
-      <button  sx={{ height: 400 }}>
-        <Paper elevation={3} variant="outlined" sx={{ height: 100}}>
-          <h1>Cancer</h1>
-        </Paper>
-      </button>
-      &nbsp; 
-      <Paper elevation={3} variant="outlined" sx={{ height: 100 }}>
-      <h1>Cancer</h1>
-      </Paper>
-      &nbsp; 
-      <Paper elevation={3} variant="outlined" sx={{ height: 100 }}>
-      <h1>Cancer</h1>
-      </Paper>
+      <Box m={2} pt={3} />
+      <DummyReports />
     </>
   );
 };

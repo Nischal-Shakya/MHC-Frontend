@@ -146,6 +146,9 @@ const Dashboard = () => {
           </Card>
         </Grid>
       </Grid>
+      <Box m={2} pt={3} />
+      <h2>Latest Reports</h2>
+      <Box m={2} pt={3} />
     </>
   );
 };

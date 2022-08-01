@@ -34,7 +34,7 @@ export default function AddForm() {
                 <IconButton onClick={handleClose} aria-label="Download">
                   <DownloadForOfflineIcon />
                 </IconButton>
-                <IconButton onClick={handleClose} aria-label="Download">
+                <IconButton onClick={handleClose} aria-label="Cancel">
                   <CancelIcon />
                 </IconButton>
               </>

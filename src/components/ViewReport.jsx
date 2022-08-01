@@ -27,7 +27,13 @@ export default function AddForm() {
         sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }}
         open={open}
       >
-        <Card>
+        <Card
+          sx={{
+            maxWidth: 600,
+            maxHeight: 600,
+            overflow: "auto",
+          }}
+        >
           <CardHeader
             action={
               <>
@@ -40,7 +46,16 @@ export default function AddForm() {
               </>
             }
             title="CANCER"
-            subheader="2022-05-26"
+            subheader={
+              <>
+                <Typography variant="body2" color="text.secondary">
+                  Annapurna Neuro Hospital
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  2022-05-26
+                </Typography>
+              </>
+            }
           />
           <CardMedia
             component="img"
@@ -49,7 +64,7 @@ export default function AddForm() {
             alt="Report Image"
           />
           <CardContent>
-            <Typography variant="body2" color="text.secondary">
+            <Typography paragraph>
               If there is any note that is provided by the doctor; it goes
               here!!
             </Typography>

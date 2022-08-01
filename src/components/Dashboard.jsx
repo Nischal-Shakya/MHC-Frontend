@@ -15,6 +15,7 @@ const Dashboard = () => {
       <Grid container spaceing={2}>
         <Grid item xs={10}>
           <div className="Text-size">DOCTOR: Nischal Shakya</div>
+          <Box m={0} pt={2} />
           <div className="Text-size">PATIENT: Dikshya Kunwar</div>
         </Grid>
         <Grid item xs={1}>
@@ -60,7 +61,7 @@ const Dashboard = () => {
               <CardContent>
                 <Typography
                   sx={{
-                    fontSize: 44,
+                    fontSize: 32,
                     fontWeight: "bold",
                     color: "textPrimary",
                   }}
@@ -70,7 +71,7 @@ const Dashboard = () => {
 
                 <Typography
                   sx={{
-                    fontSize: 20,
+                    fontSize: 16,
                     color: "textPrimary",
                   }}
                 >
@@ -90,7 +91,7 @@ const Dashboard = () => {
               <CardContent>
                 <Typography
                   sx={{
-                    fontSize: 44,
+                    fontSize: 32,
                     fontWeight: "bold",
                     color: "textPrimary",
                   }}
@@ -100,7 +101,7 @@ const Dashboard = () => {
 
                 <Typography
                   sx={{
-                    fontSize: 20,
+                    fontSize: 16,
                     color: "textPrimary",
                   }}
                 >
@@ -120,7 +121,7 @@ const Dashboard = () => {
               <CardContent>
                 <Typography
                   sx={{
-                    fontSize: 44,
+                    fontSize: 32,
                     fontWeight: "bold",
                     color: "textPrimary",
                   }}
@@ -130,7 +131,7 @@ const Dashboard = () => {
 
                 <Typography
                   sx={{
-                    fontSize: 20,
+                    fontSize: 16,
                     color: "textPrimary",
                   }}
                 >
@@ -143,7 +144,7 @@ const Dashboard = () => {
       </Grid>
       <Box m={2} pt={3} />
       <h2>Latest Reports</h2>
-      <Box m={2} pt={3} />
+      <Box m={0} pt={1} />
       <DummyReports />
     </>
   );

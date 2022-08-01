@@ -176,6 +176,7 @@ export default function MiniDrawer() {
         <LaboratoryReport />
         {/* <Dashboard />*/}
         {/* <AddForm /> */}
+        <ViewReport />
       </Box>
     </Box>
   );

@@ -135,6 +135,7 @@ export default function AddForm() {
                 variant="contained"
                 component="label"
                 onClick={handleClose}
+                size="large"
               >
                 Submit
               </Button>

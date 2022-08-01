@@ -21,7 +21,8 @@ import DashboardIcon from "@mui/icons-material/Dashboard";
 
 // import AddForm from "./AddForm";
 // import LaboratoryReport from "./LaboratoryReport";
-import Dashboard from "./Dashboard";
+// import Dashboard from "./Dashboard";
+import ViewReport from "./ViewReport";
 
 const drawerWidth = 240;
 
@@ -174,8 +175,9 @@ export default function MiniDrawer() {
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <DrawerHeader />
         {/* <LaboratoryReport /> */}
-        <Dashboard />
+        {/* <Dashboard /> */}
         {/* <AddForm /> */}
+        <ViewReport />
       </Box>
     </Box>
   );
